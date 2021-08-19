@@ -1,0 +1,95 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Hello",
+        "Nice to speak to you"
+      ],
+      "responses": [
+        "Hello!",
+        "Hello",
+        "Hello there, how can I help?",
+        "Hello there, what can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "Goodbye!",
+        "Cya!",
+        "Bye!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["No worries!", "See you again soon!"]
+    },
+    {
+      "tag": "mma",
+      "patterns": [
+        "What is MMA?",
+        "What is mixed martial arts?"
+      ],
+      "responses": [
+        "MMA stands for mixed martial arts, which refers to a contact sport taking aspects of several martial arts. Including striking and grappling. ",
+        "Mixed martial arts takes several aspects from many martial arts, such as grappling and striking."
+      ]
+    },
+    {
+      "tag": "ufc",
+      "patterns": [
+        "What is the UFC?",
+        "Is the UFC different to MMA?",
+        "Is UFC the same as MMA?",
+        "Is MMA the same as the UFC?"
+      ],
+      "responses": [
+        "The UFC is a promotion displaying MMA athletes.",
+        "The UFC is a showcase of MMA.",
+        "Mixed martial arts is displayed in the UFC."
+      ]
+    },
+    {
+      "tag": "interest",
+      "patterns": [
+        "How do I get into MMA?",
+        "How do I learn MMA"
+      ],
+      "responses": [
+        "You should learn at least one martial arts to get into MMA.",
+        "You should learn a striking and a grappling martial art to get into MMA."
+      ]
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "What martial arts are used in MMA?",
+        "What sports are used in MMA?",
+        "What martial arts are used in the UFC?",
+        "What sports are used in UFC?"
+      ],
+      "responses": [
+        "Many martial arts are used in MMA, such as Boxing, BJJ, Judo and Thai Boxing.",
+        "Boxing, BJJ, Judo, Wrestling and Thai Boxing are some of many martial arts used in MMA."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
